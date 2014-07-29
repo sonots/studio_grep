@@ -1,0 +1,10 @@
+form[role="form" method="post" action="/task/search"]
+  div[class="form-group" style="clear:both"]
+    div[class="col-xs-11"]
+      input[type="text" class="form-control" name="search" placeholder="Grep Word"]
+    div[class="col-xs-1"]
+      button[type="submit" class="btn btn-danger"]
+        | Grep
+- if @result
+  pre id="out"
+    == @result.to_s
