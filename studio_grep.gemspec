@@ -20,28 +20,13 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rspec", "~> 3"
-  spec.add_development_dependency "capybara"
   spec.add_development_dependency "pry"
   spec.add_development_dependency "pry-nav"
   spec.add_development_dependency "rake"
 
   spec.add_runtime_dependency "dotenv"
   spec.add_runtime_dependency "foreman"
-  spec.add_runtime_dependency "thor"
-
   spec.add_runtime_dependency "sinatra"
-  spec.add_runtime_dependency "activerecord"
-  spec.add_runtime_dependency "sinatra-contrib"
-  spec.add_runtime_dependency "sinatra-activerecord"
-  spec.add_runtime_dependency 'sinatra-flash'
-  spec.add_runtime_dependency 'sinatra-redirect-with-flash'
-  spec.add_runtime_dependency 'sinatra-decorator'
   spec.add_runtime_dependency 'slim'
   spec.add_runtime_dependency "unicorn"
-  spec.add_runtime_dependency "unicorn-worker-killer"
-  spec.add_runtime_dependency "delayed_job_active_record"
-  spec.add_runtime_dependency "daemons"
-  spec.add_runtime_dependency "serf-td-agent"
-  spec.add_runtime_dependency "acts_as_file"
-  # spec.add_runtime_dependency 'sqlite3'
 end
